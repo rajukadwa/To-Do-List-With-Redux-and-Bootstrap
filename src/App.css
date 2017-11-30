@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  align-content: center;
+  margin-top: 20px;
+}
+
+.left {
+  flex: 1;
+  height: 100%;
+  margin-right: 10px;
+  background-color: #FFFAFA;
+  display: inline;
+}
+
+.list {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.listData {
+  font-weight: bold;
+  display: inline;
+}
+
+.cancel {
+  font-weight: bold;
+  display: inline;
+}
+
+.right {
+  flex: 2;
+  height: 100%;
+  background-color: 	#F5F5F5;
+}
+
+.textbox {
+  height: 200px;
+  margin-right: 25px;
+  width: 100%;
+}
+
+.textboxtitle {
+  height: 31px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button{
+  position:absolute;
+  bottom:10;
+  left: 60%;
+  align-content: center;
+}
